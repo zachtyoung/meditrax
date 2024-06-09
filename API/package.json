@@ -1,0 +1,29 @@
+{
+	"name": "life-alert-be",
+	"version": "1.0.0",
+	"description": "Backend for life alert notification system",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"dev": "nodemon index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Zach Young",
+	"license": "ISC",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^16.4.5",
+		"express": "^4.19.2",
+		"helmet": "^7.1.0",
+		"http": "^0.0.1-security",
+		"knex": "^3.1.0",
+		"mongodb": "^6.6.2",
+		"mongoose": "^8.4.0",
+		"pg": "^8.11.5",
+		"socket.io": "^4.7.5",
+		"sqlite3": "^5.1.7"
+	},
+	"devDependencies": {
+		"nodemon": "^3.1.1"
+	}
+}
